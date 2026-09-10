@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Portal - Young Law Group</title>
+<meta name="description" content="Young Law Group client portal.">
+<link rel="icon" type="image/png" href="/images/Icon.png">
+<link rel="apple-touch-icon" href="/images/Icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Young Law Group home"><img src="/images/67bdd0f87988247ee898c0b7_Young%20law%20logo%20original%20letras%20negras%20copia.png" alt="Young Law Group"></a>
+    <nav class="nav-links" aria-label="Primary"><a href="meet-the-team.html">Meet The Team</a><a href="practice-areas.html">Practice Areas</a><a href="resources.html">Resources</a><a href="community.html">Community</a><a href="representative-cases.html">Cases</a></nav>
+    <a href="contact-us.html" class="btn btn-red nav-cta">Contact Us</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav-mobile" id="navMobile"><a href="meet-the-team.html">Meet The Team</a><a href="practice-areas.html">Practice Areas</a><a href="resources.html">Resources</a><a href="community.html">Community</a><a href="representative-cases.html">Cases</a><a href="contact-us.html" class="btn btn-red">Contact Us</a></div>
+</header>
+<main>
+<script>
+try { if (sessionStorage.getItem('ylg_client_ok') !== '1') { window.location.replace('existing-clients.html'); } } catch(err) { window.location.replace('existing-clients.html'); }
+</script>
+<section class="inner-hero">
+  <div class="reveal"><img class="image-cover" src="/images/679806c943716d8c935d12bd_GG%20Bridge%20With%20Ship%20Underneath%20Original%20Output%20(1)%20copia%20(1).jpg" alt="San Francisco Bay and the Golden Gate Bridge"></div>
+  <div class="inner-hero-copy">
+    <h1 class="contact-head-title reveal">Client Portal</h1>
+    <p class="contact-head-sub reveal">Everything you need to stay connected with our team</p>
+    <p class="reveal" style="font-size:16.5px;margin-top:22px;max-width:560px">At Young Law Group, we believe strong relationships don&rsquo;t end once your case begins, they grow through clear communication and continued support. Our goal is to make it easy for you to stay informed, connected, and confident every step of the way. Through our Client Portal, 24/7 reception, and new client outreach initiatives, we&rsquo;re here to ensure your experience is seamless and personal from start to finish.</p>
+  </div>
+</section>
+<section class="section"><div class="container narrow">
+  <h2 class="community-title reveal">Clio Connect Portal</h2>
+  <p class="reveal">Our secure Client Portal, powered by <strong>Clio Connect</strong>, gives you 24/7 access to your case information. You can view and download documents, track important updates, review invoices, and communicate directly with our team, all in one convenient location.</p>
+  <p class="reveal"><a href="https://account.clio.com/" target="_blank" rel="noopener" class="link-underline">Login to the Client Portal</a></p>
+
+  <h2 class="community-title reveal" style="margin-top:64px">24/7 Reception &amp; Text Line</h2>
+  <p class="reveal">We understand that questions don&rsquo;t always come up during business hours. That&rsquo;s why we&rsquo;ve partnered with a <strong>24/7 reception service</strong> to ensure your calls are always answered. If you prefer to text, you can reach us anytime at <strong><a href="sms:+18336351741" style="color:inherit">833-635-1741</a></strong>.</p>
+  <p class="reveal">Messages sent after hours will be routed to our team and answered as soon as possible the next business day.</p>
+
+  <h2 class="community-title reveal" style="margin-top:64px">Stay Connected</h2>
+  <p class="reveal">We&rsquo;re always finding new ways to keep our clients informed and engaged. From our upcoming <strong>firm newsletter</strong> and <strong>podcast</strong> to regular announcements and community updates, we look forward to sharing insights, stories, and news that matter to you.</p>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img class="footer-logo" src="/images/67bdd0f87988247ee898c0b7_Young%20law%20logo%20original%20letras%20negras%20copia.png" alt="Young Law Group">
+      <p>If you&rsquo;ve been injured due to negligence, contact Young Law Group today to schedule a consultation and learn how we can help you navigate the legal system and fight for the justice you deserve.</p>
+    </div>
+    <ul class="footer-col">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+      <li><a href="representative-cases.html">Representative Cases</a></li>
+    </ul>
+    <ul class="footer-col">
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="practice-areas.html">Practice Areas</a></li>
+      <li><a href="existing-clients.html">Existing Clients</a></li>
+    </ul>
+    <ul class="footer-col">
+      <li><a href="meet-the-team.html">Meet The Team</a></li>
+      <li><a href="community.html">Community Involvement</a></li>
+    </ul>
+  </div>
+  <div class="footer-legal">
+    <div class="container footer-legal-row">
+      <span>&copy; 2025 All right reserved</span>
+      <a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Anti-Spam</a>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

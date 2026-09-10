@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Existing Clients - Young Law Group</title>
+<meta name="description" content="Existing client portal for Young Law Group.">
+<link rel="icon" type="image/png" href="/images/Icon.png">
+<link rel="apple-touch-icon" href="/images/Icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Young Law Group home"><img src="/images/67bdd0f87988247ee898c0b7_Young%20law%20logo%20original%20letras%20negras%20copia.png" alt="Young Law Group"></a>
+    <nav class="nav-links" aria-label="Primary"><a href="meet-the-team.html">Meet The Team</a><a href="practice-areas.html">Practice Areas</a><a href="resources.html">Resources</a><a href="community.html">Community</a><a href="representative-cases.html">Cases</a></nav>
+    <a href="contact-us.html" class="btn btn-red nav-cta">Contact Us</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav-mobile" id="navMobile"><a href="meet-the-team.html">Meet The Team</a><a href="practice-areas.html">Practice Areas</a><a href="resources.html">Resources</a><a href="community.html">Community</a><a href="representative-cases.html">Cases</a><a href="contact-us.html" class="btn btn-red">Contact Us</a></div>
+</header>
+<main>
+<section class="pw-wrap" id="pwGate">
+  <h1>Existing Clients</h1>
+  <p>This area is password protected. Please enter the password provided by our office to access your client resources.</p>
+  <form class="pw-form" id="pwForm">
+    <input type="password" placeholder="Password" aria-label="Password" id="pwInput" autocomplete="current-password">
+    <button type="submit" class="btn btn-red btn-block">Enter</button>
+    <p class="form-status" id="pwStatus" style="text-align:center"></p>
+  </form>
+</section>
+<script>
+(function(){
+  var PW = "YoungLaw123*!";
+  document.getElementById('pwForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    if (document.getElementById('pwInput').value === PW) {
+      try { sessionStorage.setItem('ylg_client_ok', '1'); } catch(err){}
+      window.location.href = 'client-portal.html';
+    } else {
+      document.getElementById('pwStatus').textContent = 'Incorrect password. Please try again or contact our office.';
+    }
+  });
+})();
+</script>
+</main>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img class="footer-logo" src="/images/67bdd0f87988247ee898c0b7_Young%20law%20logo%20original%20letras%20negras%20copia.png" alt="Young Law Group">
+      <p>If you&rsquo;ve been injured due to negligence, contact Young Law Group today to schedule a consultation and learn how we can help you navigate the legal system and fight for the justice you deserve.</p>
+    </div>
+    <ul class="footer-col">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+      <li><a href="representative-cases.html">Representative Cases</a></li>
+    </ul>
+    <ul class="footer-col">
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="practice-areas.html">Practice Areas</a></li>
+      <li><a href="existing-clients.html">Existing Clients</a></li>
+    </ul>
+    <ul class="footer-col">
+      <li><a href="meet-the-team.html">Meet The Team</a></li>
+      <li><a href="community.html">Community Involvement</a></li>
+    </ul>
+  </div>
+  <div class="footer-legal">
+    <div class="container footer-legal-row">
+      <span>&copy; 2025 All right reserved</span>
+      <a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Anti-Spam</a>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
