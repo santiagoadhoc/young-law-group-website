@@ -87,26 +87,26 @@ BIOS = {
 <p>With prior experience advocating for both plaintiffs and defendants, he brings a unique perspective to personal injury cases, understanding how to strategically and effectively represent his clients.</p>
 <p>Over the years, Mr. Young has developed a strong background in civil litigation, trials, and appeals.</p>
 <p>Notable successes include:</p>
-<p><strong>Delgado v. Trax Bar &amp; Grill (2005)</strong> &mdash; A landmark premises liability case argued before the California Supreme Court. The decision established that business owners have a duty to protect patrons from harm, including assaults by others, and remains the leading precedent for cases of this type.</p>
-<p><strong>Mata v. Mata (2003)</strong> &mdash; A premises liability appeal where the court held a bar responsible for negligent security that allowed an assailant to re-enter after being banned.</p>
+<p><strong>Delgado v. Trax Bar &amp; Grill (2005)</strong>, A landmark premises liability case argued before the California Supreme Court. The decision established that business owners have a duty to protect patrons from harm, including assaults by others, and remains the leading precedent for cases of this type.</p>
+<p><strong>Mata v. Mata (2003)</strong>, A premises liability appeal where the court held a bar responsible for negligent security that allowed an assailant to re-enter after being banned.</p>
 <p>Mr. Young's experience in premises liability and personal injury law led to his selection by Thomson Reuters to author an article for the Causes of Action series: <em>"Cause of Action Against Tavern Owners, Restaurants, and Similar Businesses for Injuries Caused to Patrons by the Criminal Acts of Others."</em> This publication provides a state-by-state summary of third-party premises liability law and has been cited nationwide.</p>
 
 <h2>Teaching and Academic Contributions</h2>
 <p>Since 1999, Mr. Young has taught paralegal and law courses at the following institutions:</p>
 <ul>
-<li>Center for Advanced Legal Studies (CALS) &mdash; Houston, TX</li>
-<li>Empire College &mdash; Santa Rosa, CA</li>
-<li>Santa Rosa Junior College &mdash; Santa Rosa, CA</li>
-<li>Sonoma State University &mdash; Rohnert Park, CA</li>
-<li>Golden Gate University School of Law &mdash; San Francisco, CA</li>
-<li>John F. Kennedy School of Law &mdash; Pleasant Hill, CA</li>
+<li>Center for Advanced Legal Studies (CALS), Houston, TX</li>
+<li>Empire College, Santa Rosa, CA</li>
+<li>Santa Rosa Junior College, Santa Rosa, CA</li>
+<li>Sonoma State University, Rohnert Park, CA</li>
+<li>Golden Gate University School of Law, San Francisco, CA</li>
+<li>John F. Kennedy School of Law, Pleasant Hill, CA</li>
 </ul>
 
 <h2>Education and Memberships</h2>
 <h3>Education</h3>
 <ul>
-<li>B.A. in Ancient &amp; Medieval History &mdash; University of Illinois, Urbana-Champaign</li>
-<li>J.D. &mdash; Golden Gate University School of Law</li>
+<li>B.A. in Ancient &amp; Medieval History, University of Illinois, Urbana-Champaign</li>
+<li>J.D., Golden Gate University School of Law</li>
 </ul>
 <h3>Bar Admission</h3>
 <p>Member in good standing, California State Bar</p>
@@ -132,8 +132,8 @@ BIOS = {
 
 <h2>Personal Interests and Advocacy</h2>
 <p>Outside the courtroom, Mr. Young enjoys reading and writing historical fiction and nonfiction, gardening, and digital photography.</p>
-<p>He is deeply committed to animal welfare, wildlife conservation, and environmental justice &mdash; values reflected in Young Law Group's pro bono advocacy and financial support for related organizations.</p>
-<p>Mr. Young lives with his spouse and their five rescue dogs &mdash; Buster, Dash, Loki, Gucci, and Root Beer &mdash; whose stories inspire the firm's ongoing commitment to animal rescue and protection.</p>
+<p>He is deeply committed to animal welfare, wildlife conservation, and environmental justice, values reflected in Young Law Group's pro bono advocacy and financial support for related organizations.</p>
+<p>Mr. Young lives with his spouse and their five rescue dogs, Buster, Dash, Loki, Gucci, and Root Beer, whose stories inspire the firm's ongoing commitment to animal rescue and protection.</p>
 """,
 "laura-krieg":"""
 <h2>Professional Experience</h2>
@@ -173,7 +173,7 @@ BIOS = {
 <p>Gina believes in truly listening to clients and advocates fiercely on their behalf. Her approach is rooted in empathy, experience, and a desire to ensure every individual feels heard, respected, and cared for. She is passionate about being a supportive first point of contact and takes pride in guiding people with compassion and clarity.</p>
 
 <h2>Personal Background and Values</h2>
-<p>Born and raised in the Midwest, Gina holds deep pride in her heritage and upbringing. Her values &mdash; honesty, hard work, and forward-thinking &mdash; continue to shape her professional approach. She is always looking ahead to anticipate what is needed and strives to deliver more than expected in every interaction.</p>
+<p>Born and raised in the Midwest, Gina holds deep pride in her heritage and upbringing. Her values, honesty, hard work, and forward-thinking, continue to shape her professional approach. She is always looking ahead to anticipate what is needed and strives to deliver more than expected in every interaction.</p>
 """,
 }
 LINKEDIN = {
@@ -348,7 +348,7 @@ comm_main=f"""
   <div class="inner-hero-copy">
     <span class="eyebrow reveal">Community Involvement</span>
     <h1 class="reveal">Giving Back to Our Community and Beyond</h1>
-    <p class="reveal">At Young Law Group, we are dedicated to creating meaningful change &mdash; not just for our clients, but for the world around us. From the beginning, we pledged to support charitable organizations that share our values in animal welfare, environmental protection, and conservation.</p>
+    <p class="reveal">At Young Law Group, we are dedicated to creating meaningful change, not just for our clients, but for the world around us. From the beginning, we pledged to support charitable organizations that share our values in animal welfare, environmental protection, and conservation.</p>
   </div>
 </section>
 {charity_logos()}
@@ -358,7 +358,7 @@ comm_main=f"""
   <blockquote class="community-quote reveal">&ldquo;The greatness of a nation and its moral progress can be judged by the way its animals are treated.&rdquo;<br>- Mahatma Gandhi</blockquote>
   {charity_list()}
   <h2 class="community-subhead reveal">Join Us in Creating Change</h2>
-  <p class="reveal">We invite you to be part of our mission to support vital causes that advance animal welfare, protect the environment, and promote compassion. By working together, we can make a lasting impact, creating a future where all living beings thrive and our planet flourishes. Contact us to learn how you can get involved or contribute &mdash; together, we can shape a better world.</p>
+  <p class="reveal">We invite you to be part of our mission to support vital causes that advance animal welfare, protect the environment, and promote compassion. By working together, we can make a lasting impact, creating a future where all living beings thrive and our planet flourishes. Contact us to learn how you can get involved or contribute, together, we can shape a better world.</p>
   <blockquote class="community-quote reveal">&ldquo;It is our collective and individual responsibility to protect and nurture the global family, to support its weaker members and to preserve and tend to the environment in which we all live.&rdquo; -Dalai Lama</blockquote>
 </div></section>
 """
@@ -413,7 +413,7 @@ contact_main=f"""
 <section class="redband contact-cta"><div class="container">
   <div class="contact-cta-cols reveal">
     <p><strong>Your Case. Your Justice. Your Future.</strong><br>At Young Law Group, we provide personalized legal representation for those facing life-altering challenges. Whether you&rsquo;ve suffered a catastrophic injury, medical negligence, or elder abuse, our experienced team is here to guide you. Every case is unique, and we take the time to understand your situation and craft a strategy to secure the justice and compensation you deserve.</p>
-    <p><strong>Free, No-Obligation Consultation</strong><br>Tell us your story, and let&rsquo;s start fighting for you today. Your initial consultation is completely free&mdash;and there&rsquo;s no time limit. We&rsquo;re here to help you explore your options, take control of your future, and seek the justice you deserve. Contact us today&mdash;let Young Law Group be your trusted partner in rebuilding your life.</p>
+    <p><strong>Free, No-Obligation Consultation</strong><br>Tell us your story, and let&rsquo;s start fighting for you today. Your initial consultation is completely free, and there&rsquo;s no time limit. We&rsquo;re here to help you explore your options, take control of your future, and seek the justice you deserve. Contact us today, let Young Law Group be your trusted partner in rebuilding your life.</p>
   </div>
 </div></section>
 {contact_form_section(CDN+"679808649f9032bbd507d972_lighthouse%20at%20point%20reyes%20national%20seashore,%20taken%20from%20above%20approach%20copia2.jpg")}

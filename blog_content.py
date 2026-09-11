@@ -62,7 +62,7 @@ POST_BODY["top-legal-resources-for-northern-california-residents"] = """
 """
 
 POST_BODY["how-to-find-the-right-legal-representation-in-california"] = """
-<p>Navigating the legal system can be overwhelming, especially when you&rsquo;re dealing with a challenging situation like a personal injury, wrongful death, or medical negligence case. Finding the right attorney in California isn&rsquo;t just about hiring someone with a law degree&mdash;it&rsquo;s about connecting with a skilled, passionate, and experienced professional who truly understands your needs.</p>
+<p>Navigating the legal system can be overwhelming, especially when you&rsquo;re dealing with a challenging situation like a personal injury, wrongful death, or medical negligence case. Finding the right attorney in California isn&rsquo;t just about hiring someone with a law degree, it&rsquo;s about connecting with a skilled, passionate, and experienced professional who truly understands your needs.</p>
 <p>This guide will help you find the right legal representation, offering practical advice and pointing you toward resources that can make your search easier.</p>
 
 <h3>1. Determine Your Legal Needs</h3>
